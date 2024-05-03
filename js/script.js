@@ -1,6 +1,15 @@
 
 document.addEventListener('DOMContentLoaded', function() {
   
+  
+  const int = document.getElementById('int');
+if (int) {
+    const value = int.value;
+    // faça algo com o valor
+} else {
+    console.error('Elemento não encontrado');
+}
+  
   const privateContent = document.getElementById('private-content');
 const username = 'HDF'; // Mude isto para o nome de usuário do jogador
 const password = 'Hamura'; // Mude isto para a senha do jogador
@@ -27,7 +36,7 @@ showPrivateContent();
 		
 		const con = document.getElementById('con').value;
 		const pod = document.getElementById('pod').value;
-		const inte = document.getElementById('inte').value;
+		const int = document.getElementById('int').value;
 		const forc = document.getElementById('forc').value;
 		const des = document.getElementById('des').value;
 		
@@ -166,9 +175,8 @@ showPrivateContent();
             pontos,
 			con,
 			pod,
-			inte,
+			int,
 			forc,
-			car,
 			des,
 			atletismotreino,
 			atletismooutros,
@@ -296,7 +304,7 @@ showPrivateContent();
 				
 				document.getElementById('con').value = data.con;
 				document.getElementById('pod').value = data.pod;
-				document.getElementById('inte').value = data.inte;
+				document.getElementById('int').value = data.int;
 				document.getElementById('forc').value = data.forc;
 				document.getElementById('des').value = data.des;
 
