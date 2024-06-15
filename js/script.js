@@ -40,6 +40,15 @@ showPrivateContent();
 		const forc = document.getElementById('forc').value;
 		const des = document.getElementById('des').value;
 		
+		const acrobaciatreino = document.getElementById('acrobaciatreino').value;
+		const acrobaciaoutros = document.getElementById('acrobaciaoutros').value;
+		
+		const adestramentotreino = document.getElementById('adestramentotreino').value;
+		const adestramentooutros = document.getElementById('adestramentooutros').value;
+		
+		const artestreino = document.getElementById('artestreino').value;
+		const artesoutros = document.getElementById('artesoutros').value;
+		
 		const atletismotreino = document.getElementById('atletismotreino').value;
 		const atletismooutros = document.getElementById('atletismooutros').value;
 		
@@ -49,17 +58,14 @@ showPrivateContent();
 		const cienciatreino = document.getElementById('cienciatreino').value;
 		const cienciaoutros = document.getElementById('cienciaoutros').value;
 		
-		const conjurartreino = document.getElementById('conjurartreino').value;
-		const conjuraroutros = document.getElementById('conjuraroutros').value;
-		
 		const crimetreino = document.getElementById('crimetreino').value;
 		const crimeoutros = document.getElementById('crimeoutros').value;
 		
-		const estrategiatreino = document.getElementById('estrategiatreino').value;
-		const estrategiaoutros = document.getElementById('estrategiaoutros').value;
+		const diplomaciatreino = document.getElementById('diplomaciatreino').value;
+		const diplomaciaoutros = document.getElementById('diplomaciaoutros').value;
 
-		const falatreino = document.getElementById('falatreino').value;
-		const falaoutros = document.getElementById('falaoutros').value;
+		const enganacaotreino = document.getElementById('enganacaotreino').value;
+		const enganacaooutros = document.getElementById('enganacaooutros').value;
 		
 		const fortitudetreino = document.getElementById('fortitudetreino').value;
 		const fortitudeoutros = document.getElementById('fortitudeoutros').value;
@@ -75,6 +81,9 @@ showPrivateContent();
 		
 		const intimidacaotreino = document.getElementById('intimidacaotreino').value;
 		const intimidacaooutros = document.getElementById('intimidacaooutros').value;
+
+		const intuicaotreino = document.getElementById('intuicaotreino').value;
+		const intuicaooutros = document.getElementById('intuicaooutros').value;
 		
 		const investigacaotreino = document.getElementById('investigacaotreino').value;
 		const investigacaooutros = document.getElementById('investigacaooutros').value;
@@ -84,6 +93,9 @@ showPrivateContent();
 		
 		const medicinatreino = document.getElementById('medicinatreino').value;
 		const medicinaoutros = document.getElementById('medicinaoutros').value;
+		
+		const ocultismotreino = document.getElementById('ocultismotreino').value;
+		const ocultismooutros = document.getElementById('ocultismooutros').value;
 		
 		const percepcaotreino = document.getElementById('percepcaotreino').value;
 		const percepcaooutros = document.getElementById('percepcaooutros').value;
@@ -97,7 +109,17 @@ showPrivateContent();
 		const reflexostreino = document.getElementById('reflexostreino').value;
 		const reflexosoutros = document.getElementById('reflexosoutros').value;
 		
+		const sobrevivenciatreino = document.getElementById('sobrevivenciatreino').value;
+		const sobrevivenciaoutros = document.getElementById('sobrevivenciaoutros').value;
 		
+		const taticatreino = document.getElementById('taticatreino').value;
+		const taticaoutros = document.getElementById('taticaoutros').value;
+		
+		const tecnologiatreino = document.getElementById('tecnologiatreino').value;
+		const tecnologiaoutros = document.getElementById('tecnologiaoutros').value;
+		
+		const vontadetreino = document.getElementById('vontadetreino').value;
+		const vontadeoutros = document.getElementById('vontadeoutros').value;
 		
 		const attackname1 = document.getElementById('attackname1').value;
 		const attacktype1 = document.getElementById('attacktype1').value;
