@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const int = document.getElementById('int');
 if (int) {
     const value = int.value;
-    // faça algo com o valor
+    //
 } else {
     console.error('Elemento não encontrado');
 }
